@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Own HTTP server</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<nav class="container">
+				<img src="//placehold.it/150x30" alt="logo">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Pages</a></li>
+					<li><a href="#">Feature</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="hero">
+			<div class="slogan">
+				<h1>We capture<br>the beauty<br>of your everyday life</h1>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-4 col-m-4 col-s-12 buttons">
+						<button class="icon-btn">
+							<i class="fa fa-search"></i>
+						</button>
+						<h2>research</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="col-4 col-m-4 col-s-12 buttons">
+						<button class="icon-btn">
+							<i class="fa fa-laptop"></i>
+						</button>
+						<h2>fully customizable</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="col-4 col-m-4 col-s-12 buttons">
+						<button class="icon-btn">
+							<i class="fa fa-cogs"></i>
+						</button>
+						<h2>work and work</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class=" welcome container">
+				<h1>Featured works</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			</div>
+		</section>
+		<section>
+			<div class="row">
+				<div class="col-2 col-m-2 col-s-6 images">
+					<div class="hidden-layer">
+						<i class="fa fa-camera-retro fa-lg"></i>
+						<i class="fa fa-search fa-lg"></i>
+					</div>
+					<img src="https://images.unsplash.com/photo-1472750033574-16946775d458?ixlib=rb-0.3.5&s=fdaa3be4b29c8aed9d415005e71251e1&auto=format&fit=crop&w=500&q=60" alt="lightning&road">
+				</div>
+				<div class="col-2 col-m-2 col-s-6 images">
+					<div class="hidden-layer">
+						<i class="fa fa-camera-retro fa-lg"></i>
+						<i class="fa fa-search fa-lg"></i>
+					</div>
+					<img src="https://images.unsplash.com/photo-1432071315934-33a387ee0437?ixlib=rb-0.3.5&s=56ba4e63acccbf9ccc6266e34bc26599&auto=format&fit=crop&w=500&q=60" alt="stormy-clouds&city">
+				</div>
+				<div class="col-2 col-m-2 col-s-6 images">
+					<div class="hidden-layer">
+						<i class="fa fa-camera-retro fa-lg"></i>
+						<i class="fa fa-search fa-lg"></i>
+					</div>
+					<img src="https://images.unsplash.com/photo-1508697014387-db70aad34f4d?ixlib=rb-0.3.5&s=f05d44744f5e7680446943c52fa2b316&auto=format&fit=crop&w=500&q=60" alt="lightning&trees">
+				</div>
+				<div class="col-2 col-m-2 col-s-6 images">
+					<div class="hidden-layer">
+						<i class="fa fa-camera-retro fa-lg"></i>
+						<i class="fa fa-search fa-lg"></i>
+					</div>
+					<img src="https://images.unsplash.com/photo-1502088513349-3ff6482aa816?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b91ad73d2fd5dd1e77d803ed9240d574&auto=format&fit=crop&w=500&q=60" alt="stormy-clouds&dirt-track">
+				</div>
+				<div class="col-4 col-m-4 col-s-12 images">
+					<div class="hidden-layer">
+						<i class="fa fa-camera-retro fa-lg"></i>
+						<i class="fa fa-search fa-lg"></i>
+					</div>
+					<img src="https://images.unsplash.com/photo-1457528877294-b48235bdaa68?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=23776c88850b790975e42c214f781376&auto=format&fit=crop&w=500&q=60" alt="lightning&sea">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-4 col-m-4 col-s-12 images">
+					<div class="hidden-layer">
+						<i class="fa fa-camera-retro fa-lg"></i>
+						<i class="fa fa-search fa-lg"></i>
+					</div>
+					<img src="https://images.unsplash.com/photo-1464606203954-507eec7f5e52?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=749b4e864ae8703317efd7770ad02ff9&auto=format&fit=crop&w=500&q=60" alt="stormy-clouds%farmland">
+				</div>
+				<div class="col-2 col-m-2 col-s-6 images">
+					<div class="hidden-layer">
+						<i class="fa fa-camera-retro fa-lg"></i>
+						<i class="fa fa-search fa-lg"></i>
+					</div>
+					<img src="https://images.unsplash.com/photo-1474635183442-1d29a9be83d3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=546a91f6f4b594302f70931c99ffb9fa&auto=format&fit=crop&w=500&q=60" alt="storm&city">
+				</div>
+				<div class="col-2 col-m-2 col-s-6 images">
+					<div class="hidden-layer">
+						<i class="fa fa-camera-retro fa-lg"></i>
+						<i class="fa fa-search fa-lg"></i>
+					</div>
+					<img src="https://images.unsplash.com/photo-1503260057580-449d919fdcc4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6b62a35cfe993c6a257d701922357b71&auto=format&fit=crop&w=500&q=60" alt="stormy-clouds&mountains">
+				</div>
+				<div class="col-2 col-m-2 col-s-6 images">
+					<div class="hidden-layer">
+						<i class="fa fa-camera-retro fa-lg"></i>
+						<i class="fa fa-search fa-lg"></i>
+					</div>
+					<img src="https://images.unsplash.com/photo-1501782927683-7206edc75281?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5070410779f553c6cc1f9274f9c95a2e&auto=format&fit=crop&w=500&q=60" alt="rough-sea">
+				</div>
+				<div class="col-2 col-m-2 col-s-6 images">
+					<div class="hidden-layer">
+						<i class="fa fa-camera-retro fa-lg"></i>
+						<i class="fa fa-search fa-lg"></i>
+					</div>
+					<img src="https://images.unsplash.com/photo-1508791034781-687fb9f698cf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7224a1cfc918063c477e1a8aa0f4a19d&auto=format&fit=crop&w=500&q=60" alt="lightning&pole">
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-3 col-m-3 col-s-6 employees">
+						<div class="emp-photo">
+							<div class="hidden-layer-2">
+								<h3>CEO</h3>
+							</div>
+							<img src="https://t4.ftcdn.net/jpg/00/60/22/39/240_F_60223945_dIcHsSrk0MG7urvnJeDMCtQ9FdL62xrW.jpg" alt="CEO">
+						</div>
+						<h2>Dexter Gilbert</h2>
+					</div>
+					<div class="col-3 col-m-3 col-s-6 employees">
+						<div class="emp-photo">
+							<div class="hidden-layer-2">
+								<h3>CFO</h3>
+							</div>
+							<img src="https://images.unsplash.com/photo-1524550158212-33f2ff985344?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fa6ac468f7a594cffa90a86b4f5b6f04&auto=format&fit=crop&w=500&q=60" alt="CFO">
+						</div>
+						<h2>Mary Collier</h2>
+					</div>
+					<div class="col-3 col-m-3 col-s-6 employees">
+						<div class="emp-photo">
+							<div class="hidden-layer-2">
+								<h3>CSO</h3>
+							</div>
+							<img src="https://images.pexels.com/photos/262391/pexels-photo-262391.jpeg?auto=compress&cs=tinysrgb&h=350" alt="CSO">
+						</div>
+						<h2>Stefan Morrison</h2>
+					</div>
+					<div class="col-3 col-m-3 col-s-6 employees">
+						<div class="emp-photo">
+							<div class="hidden-layer-2">
+								<h3>CIO</h3>
+							</div>
+							<img src="https://t4.ftcdn.net/jpg/00/68/69/03/240_F_68690338_ib2CyEDG8Yic4UKEwBvnTqZZBlTOxsoV.jpg" alt="CIO">
+						</div>
+						<h2>Bill Smith</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="prom">
+			<div class="container prom-img">
+				<div class="row">
+					<div class="col-4 prom-img col-m-4 col-s-12">
+						<img src="https://images.unsplash.com/photo-1499931658483-6c9bc4c4b177?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dff5b290b6464e3e01d4d4483d865a5c&auto=format&fit=crop&w=500&q=60" alt="smartphone">
+					</div>
+					<div class="col-8 promotion col-m-8 col-s-12">
+						<div class="row">
+							<div class="col-12 col-m-12 col-s-12">
+								<h1>Life. Memmories. Captured.</h1>
+							</div>
+						</div>			
+						<div class="row">
+							<div class="col-8 col-m-8 col-s-12 promotion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</div>
+							<div class="col-4 col-m-4 col-s-12 promotion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-3 col-m-3 col-s-6 figures">
+						<h1>455</h1>
+						<p>followers</p>
+					</div>
+					<div class="col-3 col-m-3 col-s-6 figures">
+						<h1>1991</h1>
+						<p>since</p>
+					</div>
+					<div class="col-3 col-m-3 col-s-6 figures">
+						<h1>806</h1>
+						<p>happy clients</p>
+					</div>
+					<div class="col-3 col-m-3 col-s-6 figures">
+						<h1>923</h1>
+						<p>projects</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="foot">
+			<div class="last-container container">
+				<div class="row">
+					<div class="col-4 col-m-4 col-s-12 main-footer">
+						<h2 class="line">About us</h2>
+						<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</div>
+					</div>
+					<div class="col-4 col-m-4 col-s-12 main-footer">
+						<h2 class="line">Get in touch</h2>
+						<div class="row contact">
+							<div class="col-4 col-m-4 col-s-4">Address:</div>
+							<div class="col-8 col-m-8 col-s-8">66 South Street, Window 6 Wonderland</div>
+						</div>
+						<div class="row contact">
+							<div class="col-4 col-m-4 col-s-4">Phone:</div>
+							<div class="col-8 col-m-8 col-s-8">+440 875369208 - Office<br>+440 353363114 - Fax</div>
+						</div>
+						<div class="row contact">
+							<div class="col-4 col-m-4 col-s-4">Email:</div>
+							<div class="col-8 col-m-8 col-s-8">freepik@sitename.com</div>
+						</div>
+					</div>
+					<div class="col-4 col-m-4 col-s-12 main-footer">
+						<h2 class="line">Social media</h2>
+						<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</div>
+						<div class="social-media">
+							<i class="fa fa-youtube"></i>
+							<i class="fa fa-google-plus"></i>
+							<i class="fa fa-facebook-f"></i>
+							<i class="fa fa-dribbble"></i>
+							<i class="fa fa-twitter"></i>
+							<i class="fa fa-instagram"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>Copyright 2018
+		</footer>
+	</body>
+</html>
